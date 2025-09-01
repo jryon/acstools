@@ -35,7 +35,7 @@ jobs:
 
   tests:
     needs: initial_checks
-    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v1
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v2
     with:
       setenv: |
         jref: "https://ssb.stsci.edu/trds_open/jref"
